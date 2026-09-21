@@ -1,8 +1,10 @@
 # Local OAuth / token material — never commit
 *.token.json
 *.token.json.dpapi
-client_secret*.json
-credentials/
+client_secret.json
+credentials/client_secret.json
+credentials/*
+!credentials/client_secret.example.json
 .secrets/
 *.pfx
 *.pem
