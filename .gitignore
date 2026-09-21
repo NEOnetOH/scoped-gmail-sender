@@ -1,0 +1,21 @@
+# Local OAuth / token material — never commit
+*.token.json
+*.token.json.dpapi
+client_secret*.json
+credentials/
+.secrets/
+*.pfx
+*.pem
+*.key
+
+# Backups from self-update
+*.ps1.bak
+.*.update
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~
